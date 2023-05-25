@@ -56,8 +56,9 @@ Window {
             TextField {
                 Layout.row: 1
                 Layout.column: 1
-                Layout.fillWidth: true
-                background: Rectangle {id: input_ax_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC");}
+                Layout.preferredWidth: 50
+                Layout.alignment: horizontalCenter
+                background: Rectangle {width:50 ;id: input_ax_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC");}
                 id: input_a_x
                 text: qsTr("")
                 horizontalAlignment: Text.AlignHCenter
@@ -68,8 +69,9 @@ Window {
             TextField {
                 Layout.row: 1
                 Layout.column: 2
-                Layout.fillWidth: true
-                background: Rectangle {id: input_ay_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
+                Layout.preferredWidth: 50
+                Layout.alignment: horizontalCenter
+                background: Rectangle {width:50 ;id: input_ay_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
                 id: input_a_y
                 text: qsTr("")
                 horizontalAlignment: Text.AlignHCenter
@@ -89,8 +91,9 @@ Window {
             TextField {
                 Layout.row: 2
                 Layout.column: 1
-                Layout.fillWidth: true
-                background: Rectangle {id: input_bx_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
+                Layout.preferredWidth: 50
+                Layout.alignment: horizontalCenter
+                background: Rectangle {width:50 ;id: input_bx_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
                 id: input_b_x
                 text: qsTr("")
                 font.pixelSize: 14
@@ -100,8 +103,9 @@ Window {
             TextField {
                 Layout.row: 2
                 Layout.column: 2
-                Layout.fillWidth: true
-                background: Rectangle {id: input_by_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
+                Layout.preferredWidth: 50
+                Layout.alignment: horizontalCenter
+                background: Rectangle {width:50 ;id: input_by_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
                 id: input_b_y
                 text: qsTr("")
                 font.pixelSize: 14
@@ -118,8 +122,9 @@ Window {
             TextField {
                 Layout.row: 3
                 Layout.column: 1
-                Layout.fillWidth: true
-                background: Rectangle {id: input_cx_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
+                Layout.preferredWidth: 50
+                Layout.alignment: horizontalCenter
+                background: Rectangle {width:50 ;id: input_cx_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
                 id: input_c_x
                 text: qsTr("")
                 font.pixelSize: 14
@@ -129,8 +134,9 @@ Window {
             TextField {
                 Layout.row: 3
                 Layout.column: 2
-                Layout.fillWidth: true
-                background: Rectangle {id: input_cy_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
+                Layout.preferredWidth: 50
+                Layout.alignment: horizontalCenter
+                background: Rectangle {width:50 ;id: input_cy_rect; color: parent.down ? "#DCDCDC" : (parent.hovered ? "#DFDFDF" : "#DCDCDC") }
                 id: input_c_y
                 text: qsTr("")
                 font.pixelSize: 14

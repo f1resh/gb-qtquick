@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MyLabel.qml</file>
+        <file>MainInformation.qml</file>
+        <file>SearchInformation.qml</file>
+        <file>HobbiesComboBox.qml</file>
+        <file>AgeRangeSlider.qml</file>
+        <file>DialDistance.qml</file>
+    </qresource>
+</RCC>

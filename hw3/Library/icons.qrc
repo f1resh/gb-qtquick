@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="Besy">icons/besy.jpeg</file>
+        <file alias="KaramazovBrothers">icons/brothers.jpeg</file>
+        <file alias="CrimeAndPunishment">icons/prestupl.jpg</file>
+        <file alias="Sebastopol">icons/sevastopol.jpg</file>
+        <file alias="Math5">icons/vilenkin.jpg</file>
+        <file alias="WarAndPeace">icons/war_and_peace.jpeg</file>
+        <file alias="C++">icons/с++.jpeg</file>
+    </qresource>
+</RCC>
